@@ -1,0 +1,76 @@
+h1{
+    color: brown;
+}
+
+#header{
+    
+    color: rgb(255, 255, 255);
+    display: flex-fluid;
+}
+
+#header-img{
+    background-color: bisque;
+    border: 3px solid ;
+    justify-self: center;
+    
+}
+
+#nav-bar{
+    background-color: teal;
+    justify-self: center;
+}
+
+.nav{
+    background-color: blueviolet;
+}
+
+#video{
+    color: aliceblue;
+}
+
+#form{
+    color: aliceblue;
+}
+
+#email{
+    color: #000;
+}
+#submit{
+    
+}
+#box-container {
+    display: flex;
+    height: 500px;
+  }
+  #box-1 {
+    background-color: dodgerblue;
+
+    height: 200px;
+    width: 200px;
+  }
+
+  #box-2 {
+    background-color: orangered;
+
+    height: 200px;
+    width: 200px;
+  }
+  @media (max-width: 800px) {
+    :root {
+
+        
+    }
+    .navbar-search{
+        margin-left: -50px !important;
+    }
+  }
+  
+  body{
+    background-image: url("./images/Pyramid\ Night.jpg");
+
+    
+  }
+  h3{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+
+  }
